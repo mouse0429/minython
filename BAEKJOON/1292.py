@@ -1,3 +1,12 @@
 A, B = map(int, input().split())
+N = 1
+result = 0
+L = []
+while(len(L) <= B):
+    for i in range(N):
+        L.append(N)
+    N += 1
 
-print(B*(B+1)*(2*B+1) - A*(A+1)*(2*A+1))
+for i in range(A, B+1):
+    result += L[i-1]
+print(result)
