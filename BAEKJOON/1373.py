@@ -1,4 +1,3 @@
-from cmath import e
 import math
 
 arr = list(map(int, input().strip()))
