@@ -9,4 +9,4 @@ for i in range(T):
 	for j in range(1,N):
 		if arr[j][0] < arr[0][0] or arr[j][1] < arr[0][1]:
 			result += 1
-	print(result)
+	print(result)  
