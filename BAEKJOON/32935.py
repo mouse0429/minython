@@ -1,6 +1,4 @@
 N = int(input())
-As = list(map(lambda x: abs(int(x)), input().split()))
+As = list(map(int, input().split()))
 
-L = []
-
-
+print(max(sum(As), -min(As)))
